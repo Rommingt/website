@@ -1,0 +1,63 @@
+body {
+    margin:0;
+    padding:0;
+}
+header {
+	color: white;
+	text-align: center;
+	background-image: url(library/images/PLlogoCentered.png);
+    background-repeat: no-repeat;
+	overflow: hidden;
+	max-height:100%;
+	background-size: contain;	
+	background-color: #00b359;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	border: 0;
+	width: 100%;
+    overflow: hidden;
+    background-color: #330033;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+ul li a:hover {
+    background-color: #00b359;
+}
+/*colour of tab you are currently on*/
+.active{
+    background-color: #ffffff;
+	color: #330033; 
+}
+.active:hover {
+	background-color: #ffffff;
+	color: #330033; 
+}
+article {
+  float: left;
+  margin: 0 1.5%;
+  width: 50%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 40%;
+}
+footer {
+  clear: both;
+  text-align: center;
+}

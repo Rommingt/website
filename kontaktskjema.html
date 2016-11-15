@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FPL-bloggen | Kontaktskjema</title>
+	<link rel="icon" href="\library\images\iconStian.jpg">	
+	<link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+	<header>
+		<h1>Kontaktskjema</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Blogginnlegg</a></li>
+			<li><a href="omBloggeren.html">Om bloggeren</a></li>
+			<li><a class="active" href="kontaktSkjema.html">Kontaktskjema</a></li>
+		</ul>
+	</nav>
+  	<main>
+	<form>
+	<div>
+		<label for="form-1">Navn</label>
+		<input id="form-1" name="haha" required="">
+	</div>
+	<div>
+		<label for="form-1a">Epost</label>
+		<input id="form-1a" name="mail" type="email">
+	</div>
+    <div>
+        <label for="form-2">Tittel</label>
+        <input id="form-2" list="mylist" type="text">
+        <datalist id="mylist">
+            <option label="Mr" value="Mr"></option>
+			<option label="Ms" value="Ms"></option>
+			<option label="Lord" value="Lord"></option>
+		</datalist>
+	</div>
+    <div>
+        <label for="form-4">Shoesize</label>
+        <input id="form-4" name="shoesize" type="number" min="18" max="25"> <code>number  min=18 max=25</code>
+    </div>	
+    <div>
+        <label for="form-7">Date of Birth</label>
+        <input id="form-7" name="dob" type="date"><code>date</code>
+    </div>
+    <div>
+        <label for="form-8">Attractiveness</label>
+        <input id="form-8" name="tap" type="range" min="1" max="11" value="1">
+        <output name="result" onforminput="value=tap.value">1</output><code>range</code>
+    </div>
+	<div>
+	<label for="form11">Part I.D.</label>
+        <input id="form11" name="part" pattern="[0-9][A-Z]{3}" placeholder="Digit followed by three uppercase letters."> <code>[0-9][A-Z]{3}</code>
+    </div>
+    <div>
+        <button type="submit">Send</button>
+    </div>
+</form>
+	</main>
+	<footer>
+	</footer>
+  </body>
+</html>
